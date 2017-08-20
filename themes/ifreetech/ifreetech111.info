@@ -1,0 +1,43 @@
+
+name = Ifretech
+description = template de ifreetech fait avec bootstrap.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colors.css
+stylesheets[print][] = css/print.css
+
+regions[header] = Header
+regions[menu] = Menu
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
+
+regions[gauche_sup] = Gauche_sup
+regions[milieu_sup] = Milieu_sup
+
+regions[gauch_sub] = Gauche bas
+regions[milieu_sub] = Milieu bas
+regions[droit_sub] = Droit bas
+
+regions[content] = Content
+
+regions[triptych_first] = Triptych first
+regions[triptych_middle] = Triptych middle
+regions[triptych_last] = Triptych last
+
+
+regions[footer] = Pied de page
+
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2017-06-21
+version = "7.56"
+project = "drupal7"
+datestamp = "1498069849"
+

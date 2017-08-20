@@ -1,0 +1,15 @@
+<?php
+
+function hello_world_menu() {
+  $items['hello-world'] = array(
+    'title' => 'Hello word',
+    'page callback' => 'hello_world_page',
+    'access callback' => TRUE
+  );
+  return $items;
+}
+
+function hello_world_page() {
+  return 'Hello World !';
+}
+  

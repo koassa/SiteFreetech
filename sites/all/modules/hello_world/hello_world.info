@@ -1,0 +1,4 @@
+name = Hello World
+core = 7.x
+description = Module créant une page Hello world
+         
